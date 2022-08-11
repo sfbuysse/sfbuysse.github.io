@@ -1,4 +1,20 @@
-theme: jekyll-theme-minimal
-name: Sophia Buysse
-markdown: kramdown
+# Site settings
+title: Sophia BUysse
+email: sfbuysse@gmail.com
+description: > # Website for Sophia Buysse
+# baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://sfbuysse.github.io"
+twitter_username: BuysseSophia
+github_username: sfbuysse
 permalinke: /Updates/:year/:month/:day/:title
+
+### content configuration ###
+#favicon: "/img/favicon.ico"
+#touch_icon: "/img/apple-icon-144x144.png"
+
+# Build settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
